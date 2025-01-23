@@ -14,7 +14,7 @@ const index = pc.index('newindex');
 
 const client = new PrismaClient();
 const SECRET = "FUnckingscret";
-const genAI = new GoogleGenerativeAI('AIzaSyC7BrqI1J228tlVuH4sfG5du5pZ7IebxF0');
+const genAI = new GoogleGenerativeAI(`${GEMINI_API_KEY}`);
 const model = genAI.getGenerativeModel({ model: "text-embedding-004"});
 
 export const userRouter = express.Router();
