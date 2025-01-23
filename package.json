@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@pinecone-database/pinecone": "^4.1.0",
+    "@prisma/client": "^6.2.1",
+    "@types/axios": "^0.9.36",
+    "@types/cheerio": "^0.22.35",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "openai": "^4.79.1",
+    "prisma": "^6.2.1",
+    "typescript": "^5.7.3",
+    "youtube-transcript": "^1.2.1"
+  }
+}
